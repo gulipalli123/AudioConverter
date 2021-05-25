@@ -33,7 +33,7 @@ choose package according to the architecture - e.g. mp3lame_x64-windows or mp3la
 
 7. save the cmake file will do the configuration and generation
 
-8. there is option to build in the visual studio
+8. there is option to build in the visual studio -select x64-Debug as build options
 
 9. You can find the binary or executable in -  /WavToMp3/out/build/x64-Debug/WavToMp3.exe
 
@@ -41,3 +41,9 @@ choose package according to the architecture - e.g. mp3lame_x64-windows or mp3la
 	$ ./WavToMp3 path/to/wav files
 
 11. the generated mp3 files can be found in the same folder.
+
+12. If you want to build for linux in visual studio - 
+	1. Connect the remote linux host to VS- https://www.youtube.com/watch?v=Y5Els11sY1A
+	2. select Linux-Debug instead of x64-Debug in the build options
+	3. Your binary will be created in the remote linux machine.
+	
